@@ -1,2 +1,0 @@
-drop datavase if exists testdb;
-create table test_table

@@ -1,0 +1,7 @@
+127.0.0.1 - - [03/Jun/2019:18:45:23 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [03/Jun/2019:18:45:23 +0900] "GET /HelloServlet/ HTTP/1.1" 200 373
+127.0.0.1 - - [03/Jun/2019:19:18:12 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [03/Jun/2019:19:18:13 +0900] "GET /HelloServlet/ HTTP/1.1" 200 731
+0:0:0:0:0:0:0:1 - - [03/Jun/2019:19:19:58 +0900] "GET /HelloServlet/ HTTP/1.1" 200 737
+0:0:0:0:0:0:0:1 - - [03/Jun/2019:19:20:08 +0900] "GET /HelloServlet/TestServlet?username=aaa&password=123 HTTP/1.1" 200 55
+0:0:0:0:0:0:0:1 - - [03/Jun/2019:19:20:14 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 55
