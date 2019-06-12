@@ -5,9 +5,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login</title>
+<title>TEST</title>
 </head>
 <body>
-<s:property value="username"/>さん、ようこそ！
+
+<br>
+<s:property value="username"/>
+<br>
+<s:property value="password"/>
+
 </body>
 </html>

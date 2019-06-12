@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>お問い合わせ　受付完了</title>
+<title>お問い合わせ  受付完了</title>
 </head>
 <body>
 
@@ -23,7 +23,7 @@
 アフターサポートについて
 </s:if>
 <br><br>
-お問い合わせ内容<br>
+お問い合わせ内容:<br>
 <s:property value="body"/>
 
 
