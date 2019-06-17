@@ -1,5 +1,10 @@
 package com.internousdev.webproj3.action;
 
-public class InquiryAction {
+import com.opensymphony.xwork2.ActionSupport;
+
+public class InquiryAction extends ActionSupport{
+	public String execute() {
+		return SUCCESS;
+	}
 
 }
