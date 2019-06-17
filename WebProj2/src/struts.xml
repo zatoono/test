@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE struts PUBLIC
 "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
-"http://struts.apache.org./dtds/struts-2.3.dtd">
+"http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
 <constant name="struts.devMode" value="true" />
 
-<package name="com.internousdev.webproj2.action" extends="struts-dafault">
+<package name="com.internousdev.webproj2.action" extends="struts-default">
 
 <action name="HelloStrutsAction" class="com.internousdev.webproj2.action.HelloStrutsAction"
 method="execute">
@@ -27,7 +27,7 @@ method="execute">
 </action>
 
 <action name="InquiryCompleteAction" class="com.internousdev.webproj2.action.InquiryCompleteAction" method="execute">
-<result name="success">InquiryComplete.jsp</result>
+<result name="success">inquiryComplete.jsp</result>
 </action>
 
 <action name="TestAction" class="com.internousdev.webproj2.action.TestAction" method="execute">

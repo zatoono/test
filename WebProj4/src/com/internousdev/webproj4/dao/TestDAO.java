@@ -21,7 +21,7 @@ public class TestDAO {
 
 		String sql = "insert into users(user_name.password) values(?,?)";
 		try {
-			PreparedStatement ps = con.preparedStatement(sql);
+			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setString(1, username);
 			ps.setString(2, password);
 			int i = ps.executeUpdate();
@@ -49,7 +49,7 @@ public class TestDAO {
 		try {
 			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setString(1, username);
-			os.setString(2,password);
+			ps.setString(2,password);
 			ResultSet rs = ps.executeQuery();
 
 			while(rs.next()) {

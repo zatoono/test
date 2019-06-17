@@ -54,7 +54,7 @@ public class TestDAO {
 
 			while(rs.next()) {
 				LoginDTO dto = new LoginDTO();
-				dto.setUsername(rs.getString("username"));
+				dto.setUsername(rs.getString("user_name"));
 				dto.setPassword(rs.getString("password"));
 				loginDTOList.add(dto);
 			}
