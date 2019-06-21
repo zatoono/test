@@ -4,13 +4,13 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import com.intenousdev.template.util.DBConnector;
 import com.internousdev.template.dto.BuyItemDTO;
+import com.internousdev.template.util.DBConnector;
 
 public class BuyItemDAO {
 
 	public BuyItemDTO getBuyItemInfo() {
-		com.intenousdev.template.util.DBConnector dbConnector = new DBConnector();
+		com.internousdev.template.util.DBConnector dbConnector = new DBConnector();
 		Connection connection = dbConnector.getConnection();
 		BuyItemDTO buyItemDTO = new BuyItemDTO();
 

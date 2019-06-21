@@ -17,7 +17,7 @@
 /*---------TAG LAYOUT-------*/
 body{
 margin:0;
-paddinf:0;
+padding:0;
 line-height:1.6;
 letter-spacing:1px;
 font-family:Verdana,Helvetica,sans-serif;
@@ -45,8 +45,8 @@ background-color:black;
 
 #main{
 width:100%;
-height:80px;
-background-color:black;
+height:500px;
+text-align:center;
 }
 
 #footer{
@@ -64,22 +64,22 @@ clear:both;
 	</div>
 	<div id="main">
 		<div id="top">
-			<p>Lofin</p>
+			<p>Login</p>
 		</div>
-	</div>
-	<div>
-		<h3>商品を購入する際にはログインをお願いします。</h3>
-		<s:form action="LoginAction">
-			<s:textfield name="loginUserId"/>
-			<s:password name="loginPassword"/>
-			<s:submit value="ログイン" />
-		</s:form>
-		<br>
 		<div>
-			<span>新規ユーザー登録は
-				<a href='<s:url action="UserCreateAction" />'>こちら</a>
-			</span>
-			</div>
+			<h3>商品を購入する際にはログインをお願いします。</h3>
+			<s:form action="LoginAction">
+				<s:textfield name="loginUserId"/>
+				<s:password name="loginPassword"/>
+				<s:submit value="ログイン" />
+			</s:form>
+			<br>
+			<div>
+				<span>新規ユーザー登録は
+					<a href='<s:url action="UserCreateAction" />'>こちら</a>
+				</span>
+				</div>
+		</div>
 	</div>
 
 	<div id="footer">
