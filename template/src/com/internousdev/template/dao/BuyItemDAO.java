@@ -10,7 +10,7 @@ import com.internousdev.template.util.DBConnector;
 public class BuyItemDAO {
 
 	public BuyItemDTO getBuyItemInfo() {
-		com.internousdev.template.util.DBConnector dbConnector = new DBConnector();
+		DBConnector dbConnector = new DBConnector();
 		Connection connection = dbConnector.getConnection();
 		BuyItemDTO buyItemDTO = new BuyItemDTO();
 

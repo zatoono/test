@@ -4,8 +4,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="Content-Style-type" content="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="imagetoolbar" content="no" />
 <meta name="description" content="" />
@@ -66,7 +66,7 @@ clear:both;
 			<p>UserCreate</p>
 		</div>
 		<div>
-			<s:if test="errorMessage != ">
+			<s:if test="errorMessage != ''">
 				<s:property value="errorMessage" escape="false" />
 			</s:if>
 			<table>
@@ -89,7 +89,7 @@ clear:both;
 			</tr>
 			<tr>
 				<td>
-					<label>ユーザー名</label>
+					<label>ユーザー名:</label>
 				</td>
 				<td>
 					<input type="text" name="userName" value="" />
@@ -104,9 +104,11 @@ clear:both;
 				<a href='<s:url action="HomeAction" />'>こちら</a>
 			</div>
 		</div>
-		<div id="footer">
-			<div id="pr"></div>
+	</div>
+	<div id="footer">
+		<div id="pr">
 		</div>
 	</div>
+
 </body>
 </html>

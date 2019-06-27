@@ -4,9 +4,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta http-equiv="Content-Style-Type" content="text/css" />
-<meta http-equiv="Content-Script-Tyle" content="text/javascript" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="imagetoolbar" content="no" />
 <meta name="description" content="" />
 <meta name="keywords" content="" />
@@ -71,9 +71,9 @@ clear:both;
 				<a href='<s:url action="HomeAction" />'>ログインへ</a>
 			</div>
 		</div>
-		<div id="footer">
-			<div id="pr"></div>
-		</div>
+	</div>
+	<div id="footer">
+		<div id="pr"></div>
 	</div>
 </body>
 </html>

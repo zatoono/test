@@ -4,14 +4,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=urf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="imagetoolbar" content="no" />
-<meta name="dexsription" content="" />
+<meta name="description" content="" />
 <meta name="keywords" content="" />
 
-<title>ホーム画面</title>
+<title>HOME画面</title>
 
 <style type="text/css">
 /*---------TAG LAYOUT---------*/
@@ -28,11 +28,11 @@ background:#fff;
 
 table{
 text-align:center;
-margin:auto;
+margin:0 auto;
 }
 
 /*--------ID LAYOUT---------*/
-#TOP{
+#top{
 width:780px;
 margin:30px auto;
 border:1px solid #333;
@@ -62,7 +62,7 @@ clear:both;
 <body>
 	<div id="header">
 		<div id="pr"></div>
-	</div>"
+	</div>
 	<div id="main">
 		<div id="top">
 			<p>Home</p>

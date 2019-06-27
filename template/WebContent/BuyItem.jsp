@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="imagetoolbar" content="no" />
-<meta name="dexcription" content="" />
+<meta name="description" content="" />
 <meta name="keywords" content="" />
 
 <title>BuyItem画面</title>
@@ -52,7 +52,7 @@ table{
  width:100%;
  height:80px;
  background-color:black;
- clea:both;
+ clear:both;
 }
 </style>
 </head>
